@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Word Reverser for iOS9.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DBCE71881DACA49900E3580E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBCE719C1DACA49900E3580E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBCE71A71DACA49900E3580E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
