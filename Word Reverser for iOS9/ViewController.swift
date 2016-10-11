@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     func printReversedWord() {
-        lblReverseWord.text = "\(reversedWord)"
+        lblReverseWord.text = "\(reversedWord.lowercaseString)"
     }
 
 }
