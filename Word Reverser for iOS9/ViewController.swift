@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var lblReverseWord: UILabel!
     
+    var nameData = ""
+    var reversedWord = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
