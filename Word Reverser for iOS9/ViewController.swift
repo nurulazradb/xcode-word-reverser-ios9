@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var lblReverseWord: UILabel!
     
-    var nameData = ""
+    var wordData = ""
     var reversedWord = ""
 
     override func viewDidLoad() {
@@ -34,6 +34,9 @@ class ViewController: UIViewController {
     }
 
     func reverseTheWord() {
+        wordData = txtName.text!
+        reversedWord = wordData
+        
         printReversedWord()
     }
     
@@ -41,6 +44,7 @@ class ViewController: UIViewController {
     }
     
     func printReversedWord() {
+        lblReverseWord.text = "\(wordData)"
     }
 
 }
