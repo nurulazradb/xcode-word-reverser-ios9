@@ -12,6 +12,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var lblReverseWord: UILabel!
+    @IBOutlet weak var lblWordCount: UILabel!
     
     var wordData = ""
     var reversedWord = ""
@@ -38,12 +39,18 @@ class ViewController: UIViewController, UITextViewDelegate {
         wordData = txtName.text!
         reversedWord = String(wordData.characters.reverse())
         
+        countTheWord()
         printReversedWord()
+    }
+    
+    func countTheWord() {
+        lblWordCount.text = "\(String(wordData.characters.count)) char(s)"
     }
     
     func clear() {
         txtName.text = ""
         lblReverseWord.text = "Word"
+        lblWordCount.text = "0"
     }
     
     func printReversedWord() {

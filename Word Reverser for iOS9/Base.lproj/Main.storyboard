@@ -30,13 +30,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZk-MW-iA6">
-                                <rect key="frame" x="20" y="297" width="335" height="46"/>
+                                <rect key="frame" x="20" y="342" width="335" height="46"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6U-ZW-r4t">
-                                <rect key="frame" x="20" y="351" width="335" height="92"/>
+                                <rect key="frame" x="20" y="396" width="335" height="92"/>
                                 <color key="backgroundColor" red="0.12470117211341858" green="0.34217709302902222" blue="0.20313376188278198" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="38"/>
                                 <state key="normal" title="Reverse!">
@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5sA-tm-wq4">
-                                <rect key="frame" x="20" y="451" width="335" height="58"/>
+                                <rect key="frame" x="20" y="496" width="335" height="58"/>
                                 <color key="backgroundColor" red="0.12470117211341858" green="0.34217709302902222" blue="0.20313376188278198" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="38"/>
                                 <state key="normal" title="Clear">
@@ -57,12 +57,19 @@
                                     <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Vy-Vd-uOa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnf-dk-z9n">
+                                <rect key="frame" x="20" y="288" width="335" height="46"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="lblReverseWord" destination="tZk-MW-iA6" id="Rbg-KE-hTJ"/>
+                        <outlet property="lblWordCount" destination="rnf-dk-z9n" id="C3K-Fh-Nwv"/>
                         <outlet property="txtName" destination="pmE-Cu-v10" id="hL3-1y-PI1"/>
                     </connections>
                 </viewController>
