@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnClear(sender: UIButton) {
+        clear()
     }
 
     func reverseTheWord() {
@@ -41,6 +42,8 @@ class ViewController: UIViewController {
     }
     
     func clear() {
+        txtName.text = ""
+        lblReverseWord.text = "Word"
     }
     
     func printReversedWord() {
