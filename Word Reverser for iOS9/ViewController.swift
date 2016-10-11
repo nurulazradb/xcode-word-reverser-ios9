@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate {
     
     @IBOutlet weak var txtName: UITextField!
     @IBOutlet weak var lblReverseWord: UILabel!
@@ -48,6 +48,14 @@ class ViewController: UIViewController {
     
     func printReversedWord() {
         lblReverseWord.text = "\(reversedWord.lowercaseString)"
+    }
+    
+    func hideKeyboard() {
+        txtName.resignFirstResponder()
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        hideKeyboard()
     }
 
 }
