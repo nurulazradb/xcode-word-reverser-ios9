@@ -25,11 +25,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnReverse(sender: UIButton) {
+        reverseTheWord()
     }
     
     @IBAction func btnClear(sender: UIButton) {
     }
 
+    func reverseTheWord() {
+        printReversedWord()
+    }
+    
+    func clear() {
+    }
+    
+    func printReversedWord() {
+    }
 
 }
 
