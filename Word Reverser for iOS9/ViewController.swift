@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 
     func reverseTheWord() {
         wordData = txtName.text!
-        reversedWord = wordData
+        reversedWord = String(wordData.characters.reverse())
         
         printReversedWord()
     }
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     }
     
     func printReversedWord() {
-        lblReverseWord.text = "\(wordData)"
+        lblReverseWord.text = "\(reversedWord)"
     }
 
 }
