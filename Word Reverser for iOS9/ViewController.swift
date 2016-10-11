@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var lblReverseWord: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func btnReverse(sender: UIButton) {
+    }
+    
+    @IBAction func btnClear(sender: UIButton) {
     }
 
 
